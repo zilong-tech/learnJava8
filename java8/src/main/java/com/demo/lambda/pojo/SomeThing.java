@@ -1,4 +1,4 @@
-package com.demo.pojo;
+package com.demo.lambda.pojo;
 
 /**
  * Description:

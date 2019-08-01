@@ -1,9 +1,7 @@
-package com.demo;
+package com.demo.lambda;
 
 
-import com.demo.pojo.SomeThing;
-
-import java.util.function.Predicate;
+import com.demo.lambda.pojo.SomeThing;
 
 /**
  * Description:
@@ -26,9 +24,6 @@ public class Test {
         String java = converter.converter("java");
         System.out.println(java);
 
-
-        Predicate<String> predicate = (str) -> str.length()>0;
-        System.out.println(predicate.test("foo"));
 
 
     }

@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.lambda;
 
 import java.util.Arrays;
 import java.util.Collections;

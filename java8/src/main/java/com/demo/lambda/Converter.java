@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.lambda;
 
 /**
  * Description:
@@ -7,8 +7,10 @@ package com.demo;
  *
  * @author zys
  */
-@FunctionalInterface
+
 public interface Converter<F,T> {
 
     public T converter(F from);
+
+
 }
