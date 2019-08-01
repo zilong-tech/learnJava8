@@ -10,5 +10,5 @@ package com.demo;
 @FunctionalInterface
 public interface Converter<F,T> {
 
-    T converter(F from);
+    public T converter(F from);
 }
